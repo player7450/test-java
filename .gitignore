@@ -1,5 +1,6 @@
 # folder
 target/
+.idea/
 
 # fixed file
 *.o
