@@ -12,6 +12,7 @@
     <logback.version>1.1.5</logback.version>
     <spring.version>4.3.1.RELEASE</spring.version>
     <guava.version>19.0</guava.version>
+    <test.version>1.0</test.version>
   </properties>
 
   <dependencyManagement>
