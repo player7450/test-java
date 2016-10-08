@@ -4,6 +4,7 @@ target/
 
 # fixed file
 *.o
+*.iml
 
 # temp file
 ~*
