@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <configuration scan="true" scanPeriod="3 seconds" debug="false">
     <contextName>test-web</contextName>
-    <property name="LOG_HOME" value="/Users/liuzheng/logs/test-web"/>
+    <property name="LOG_HOME" value="/Users/liuzheng/logs/test-java"/>
 
     <appender name="STDOUT" class="ch.qos.logback.core.ConsoleAppender">
         <encoder>

@@ -3,8 +3,13 @@
   <modelVersion>4.0.0</modelVersion>
   <groupId>lz.test</groupId>
   <artifactId>test-java</artifactId>
-  <packaging>jar</packaging>
-  <version>1.0-SNAPSHOT</version>
+  <packaging>pom</packaging>
+  <version>1.0.0-SNAPSHOT</version>
+
+  <modules>
+    <module>test-application</module>
+  </modules>
+
   <name>test-java</name>
   <url>http://maven.apache.org</url>
   <properties>
@@ -44,35 +49,6 @@
       </dependency>
     </dependencies>
   </dependencyManagement>
-
-  <dependencies>
-    <dependency>
-      <groupId>ch.qos.logback</groupId>
-      <artifactId>logback-classic</artifactId>
-    </dependency>
-    <dependency>
-      <groupId>org.springframework</groupId>
-      <artifactId>spring-context</artifactId>
-    </dependency>
-    <dependency>
-      <groupId>com.google.guava</groupId>
-      <artifactId>guava</artifactId>
-    </dependency>
-    <dependency>
-      <groupId>com.google.code.findbugs</groupId>
-      <artifactId>jsr305</artifactId>
-    </dependency>
-    <dependency>
-      <groupId>com.google.code.gson</groupId>
-      <artifactId>gson</artifactId>
-      <version>2.8.0</version>
-    </dependency>
-    <dependency>
-      <groupId>com.alibaba</groupId>
-      <artifactId>fastjson</artifactId>
-      <version>1.1.31.sec01</version>
-    </dependency>
-  </dependencies>
 
   <build>
     <finalName>test-java</finalName>
