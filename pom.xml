@@ -10,6 +10,7 @@
   <properties>
     <slf4j.version>1.7.16</slf4j.version>
     <logback.version>1.1.5</logback.version>
+    <spring.version>4.3.1.RELEASE</spring.version>
     <guava.version>19.0</guava.version>
     <google.findbugs.version>3.0.1</google.findbugs.version>
   </properties>
@@ -25,6 +26,11 @@
         <groupId>ch.qos.logback</groupId>
         <artifactId>logback-classic</artifactId>
         <version>${logback.version}</version>
+      </dependency>
+      <dependency>
+        <groupId>org.springframework</groupId>
+        <artifactId>spring-context</artifactId>
+        <version>${spring.version}</version>
       </dependency>
       <dependency>
         <groupId>com.google.guava</groupId>
@@ -43,6 +49,10 @@
     <dependency>
       <groupId>ch.qos.logback</groupId>
       <artifactId>logback-classic</artifactId>
+    </dependency>
+    <dependency>
+      <groupId>org.springframework</groupId>
+      <artifactId>spring-context</artifactId>
     </dependency>
     <dependency>
       <groupId>com.google.guava</groupId>
